@@ -1,7 +1,7 @@
-# Adapted from Deadpool Theme By @bishwassagar
 # Global properties
 title-text: ""
 desktop-color: "#000000"
+terminal-font: "Terminus Regular 18"
 terminal-box: "terminal_box_*.png"
 terminal-left: "0"
 terminal-top: "0"
@@ -17,11 +17,10 @@ terminal-border: "0"
   height = 60%
   item_color = "#bbbbbb"
   selected_item_color = "#ffffff"
+  item_font = "Roboto Condensed Regular 24"
   item_height = 48
   item_spacing = 8
   item_icon_space = 12
-  item_pixmap_style = "item_*.png"
-  selected_item_pixmap_style = "selected_item_*.png"
 }
 
 # Countdown message
@@ -41,6 +40,6 @@ terminal-border: "0"
   top = 98%-30
   width = 100%
   align = "center"
-  text = "Use [UP] and [DOWN] keys to change selection, Enter to confirm"
+  text = "[↑] / [↓] Change, [↵] Boot, [E] Edit, [C] GRUB command line"
   color = "#ffffff"
 }
